@@ -51,11 +51,7 @@ describe("[BODY-PARSER][STANDARD]", function () {
         server.use(bodyParser());
         server.listen(0, function() {
             server.post({
-                url: '/',
-                streamer: {
-                    enable: false,
-                    pattern: '*'
-                }
+                url: '/'
             }, function (req, res, next) {
                 if(req.body.pipe) {
                     req.body.pipe(es.writeArray(function (err, content) {

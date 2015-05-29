@@ -53,7 +53,6 @@ describe("[BODY-PARSER][NEW]", function () {
             server.post({
                 url: '/',
                 streamer: {
-                    enable: true,
                     pattern: '*'
                 }
             }, function (req, res, next) {

@@ -21,7 +21,6 @@ server.use(require('restify-jsonstream-bodyparser')());
 server.post({
     url: '/',
     streamer: {
-        enable: true,
         pattern: '*'
     }
 }, function (req, res, next) {
