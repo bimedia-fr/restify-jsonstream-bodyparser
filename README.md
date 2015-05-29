@@ -1,4 +1,4 @@
-Restify async body parser
+Restify jsonstream body parser
 ==============================
 
 When using `server.use(restify.bodyParser()`, content is buffered being passed through to restify bodyParser.
@@ -13,7 +13,7 @@ All other requests are left unchanged.
 
 ### Setting
 ```javascript
-server.use(require('restify-plugin-bodyparser')());
+server.use(require('restify-jsonstream-bodyparser')());
 ```
 
 ### Sample

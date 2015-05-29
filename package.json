@@ -1,5 +1,5 @@
 {
-  "name": "restify-plugin-bodyparser",
+  "name": "restify-jsonstream-bodyparser",
   "description": "Allows to handle POST/PUT request content as a JSON stream or as a JSON object",
   "version": "1.0.0",
   "author": "Guillaume Chauvet <g.chauvet@bimedia.com.fr>",
@@ -9,7 +9,7 @@
   "main": "./lib/bodyParser.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gchauvet/restify-plugin-bodyparser"
+    "url": "https://github.com/bimedia-fr/restify-jsonstream-bodyparser"
   },
   "keywords": [
     "restify",
